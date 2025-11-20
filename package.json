@@ -1,0 +1,23 @@
+{
+  "name": "smart-community-portal",
+  "version": "1.0.0",
+  "description": "Smart Community Resource Sharing Portal - A full-stack web platform for community management",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "community",
+    "resource-sharing",
+    "booking",
+    "complaints"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
